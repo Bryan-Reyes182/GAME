@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2900218875308588589}
   - component: {fileID: 827722496337519530}
   - component: {fileID: 2090642674025853698}
+  - component: {fileID: 2314609109263291555}
   m_Layer: 0
   m_Name: GroundSensor
   m_TagString: Untagged
@@ -55,9 +56,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111755813442870902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f2a8bdc7f41b704693ad497097f30dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2314609109263291555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111755813442870902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e2b53e31e1c9446b055b4ad4456574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6323719953710832613
@@ -73,6 +86,7 @@ GameObject:
   - component: {fileID: 2954181336601895002}
   - component: {fileID: 8942925490989933264}
   - component: {fileID: 9117128348835321587}
+  - component: {fileID: 5022181861120824920}
   m_Layer: 0
   m_Name: HeroKnight
   m_TagString: Player
@@ -216,6 +230,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.73, y: 1.2}
   m_EdgeRadius: 0
+--- !u!114 &5022181861120824920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49feb3307dcf4144ea26a2934d13f679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 2
+  jumpSpeed: 3
+  spriteRenderer: {fileID: 2954181336601895002}
+  animator: {fileID: 2655505060201611074}
 --- !u!1 &7087049454815086010
 GameObject:
   m_ObjectHideFlags: 0
