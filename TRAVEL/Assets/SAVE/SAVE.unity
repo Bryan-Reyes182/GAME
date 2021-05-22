@@ -156,7 +156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4805181885227780, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.171
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4805181885227780, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14695,6 +14695,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a55488bc1c3b347a5b363b05482577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  AttackPoint: {fileID: 0}
+  AttackPointB: {fileID: 0}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  attackRange: 0.5
+  attackDamage: 40
+  attackRotate: 2
 --- !u!50 &2077093149 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 8942925490989933264, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
