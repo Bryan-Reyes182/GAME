@@ -373,3 +373,179 @@ Received Import Request.
 Start importing Assets/Añadidos/Hero Knight - Pixel Art/Animations/Animaciones/HeroKnight_AnimController.controller using Guid(3c2a5b7097b0fe44394328c0bdb9252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c960d8f23d8be4b398338653c20e93') in 0.006534 seconds
   Import took 0.011736 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.915 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 3.727068 ms (FindLiveObjects: 0.489545 ms CreateObjectMapping: 0.170948 ms MarkObjects: 3.040656 ms  DeleteObjects: 0.024463 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 740.610617 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+  artifactKey: Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller using Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572120acb936b5a963e6170a0c846f1a') in 0.082872 seconds
+  Import took 0.095571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.681635 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit
+  artifactKey: Guid(589cc16c1bd89934ab5ca6f7d9a33cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit using Guid(589cc16c1bd89934ab5ca6f7d9a33cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac008c0df7180030cf363d7b63bc82f8') in 0.004199 seconds
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.497770 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/animacion
+  artifactKey: Guid(989475e26a4983f438e99b9f12ca3459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/animacion using Guid(989475e26a4983f438e99b9f12ca3459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffdf4b4cd06bc2c75e56737d57bab06') in 0.004353 seconds
+  Import took 0.009006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.591963 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Attack.anim
+  artifactKey: Guid(f50ea1e86c917ee4a886801ca2d6f4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Attack.anim using Guid(f50ea1e86c917ee4a886801ca2d6f4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d91262b34f57bce1bbe50a9afcb4d3') in 0.072191 seconds
+  Import took 0.076649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754752 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_CombatIdle.anim
+  artifactKey: Guid(6a1ebf4e9e2b85c4dbeebc58d8f911ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_CombatIdle.anim using Guid(6a1ebf4e9e2b85c4dbeebc58d8f911ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac44f22959a8796542a0ebd45e2df15') in 0.003896 seconds
+  Import took 0.032980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396991 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Death.anim
+  artifactKey: Guid(e38cb418ab88f9346b0ebccb770105ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Death.anim using Guid(e38cb418ab88f9346b0ebccb770105ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df5ed2e122f0d68444b9aa70eeff5bc') in 0.004470 seconds
+  Import took 0.009431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005116 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Death.anim
+  artifactKey: Guid(e38cb418ab88f9346b0ebccb770105ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Death.anim using Guid(e38cb418ab88f9346b0ebccb770105ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df5ed2e122f0d68444b9aa70eeff5bc') in 0.009801 seconds
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.420816 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Hurt.anim
+  artifactKey: Guid(f4d08aca8d9c8b24f969b71bcb299c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Hurt.anim using Guid(f4d08aca8d9c8b24f969b71bcb299c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3628d9f86a780fbe2c4add5b107ad7bd') in 0.004985 seconds
+  Import took 0.031597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.129707 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Idle.anim
+  artifactKey: Guid(5ebd92ec0147c7d4dac5630b51456c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Idle.anim using Guid(5ebd92ec0147c7d4dac5630b51456c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b79f5a78f3f38c001233e2c9cead16e') in 0.004811 seconds
+  Import took 0.026291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.586831 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Jump.anim
+  artifactKey: Guid(d756094fc5e8c594ba2e2ba808fe9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Jump.anim using Guid(d756094fc5e8c594ba2e2ba808fe9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf96f5f48b462913524fd00a0b0a6c3') in 0.005126 seconds
+  Import took 0.009916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007042 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Jump.anim
+  artifactKey: Guid(d756094fc5e8c594ba2e2ba808fe9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Jump.anim using Guid(d756094fc5e8c594ba2e2ba808fe9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf96f5f48b462913524fd00a0b0a6c3') in 0.004423 seconds
+  Import took 0.009418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.096321 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Recover.anim
+  artifactKey: Guid(8e501a4decb168e48bb9b17dc0ea2b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Recover.anim using Guid(8e501a4decb168e48bb9b17dc0ea2b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809437a6b35f8b3539357d023ec76c7') in 0.004511 seconds
+  Import took 0.012773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001403 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Recover.anim
+  artifactKey: Guid(8e501a4decb168e48bb9b17dc0ea2b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Recover.anim using Guid(8e501a4decb168e48bb9b17dc0ea2b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809437a6b35f8b3539357d023ec76c7') in 0.013650 seconds
+  Import took 0.018404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328402 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Run.anim
+  artifactKey: Guid(c2755e67fa2a27c4784f3f25fb5572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Run.anim using Guid(c2755e67fa2a27c4784f3f25fb5572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be18122fa68ae9607046e372a9061a4d') in 0.006022 seconds
+  Import took 0.012219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005208 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Run.anim
+  artifactKey: Guid(c2755e67fa2a27c4784f3f25fb5572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_Run.anim using Guid(c2755e67fa2a27c4784f3f25fb5572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be18122fa68ae9607046e372a9061a4d') in 0.017100 seconds
+  Import took 0.025887 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.823 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 30.240859 ms (FindLiveObjects: 0.421982 ms CreateObjectMapping: 0.127264 ms MarkObjects: 29.664529 ms  DeleteObjects: 0.025628 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 419.635228 seconds.
+  path: Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+  artifactKey: Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Añadidos/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller using Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd11e77edfe22b56a982060cb5d0649b') in 0.042025 seconds
+  Import took 0.048255 seconds .
+
