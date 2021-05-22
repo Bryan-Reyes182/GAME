@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1689866831511430, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_Name
-      value: LightBandit
+      value: Bandido
       objectReference: {fileID: 0}
     - target: {fileID: 1689866831511430, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_Layer
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 291699156}
   - component: {fileID: 291699155}
   m_Layer: 0
-  m_Name: Fondo2
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,6 +385,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 351674194244795142, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
   m_PrefabInstance: {fileID: 1268491498}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &734935565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1689866831511430, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
+  m_PrefabInstance: {fileID: 63693118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &734935566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734935565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c4e8de2f2413d4bab2be910354af4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 734935569}
+  maxHealth: 100
+  player: {fileID: 2077093147}
+  isFlipped: 0
+--- !u!95 &734935569 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95346456782871180, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
+  m_PrefabInstance: {fileID: 63693118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &757765678
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,13 +494,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2077093146}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2077093148}
+        m_TargetAssemblyTypeName: Ataque, Assembly-CSharp
+        m_MethodName: ATQ
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14025,7 +14051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6323719953710832613, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: m_Name
-      value: HeroKnight
+      value: Heore
       objectReference: {fileID: 0}
     - target: {fileID: 8413529789942519730, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: m_RootOrder
@@ -14100,7 +14126,7 @@ GameObject:
   - component: {fileID: 1289414542}
   - component: {fileID: 1289414543}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Boceto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14371,7 +14397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1443057613}
   m_Layer: 0
-  m_Name: Objetos
+  m_Name: Players
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14612,7 +14638,7 @@ GameObject:
   - component: {fileID: 2076967605}
   - component: {fileID: 2076967606}
   m_Layer: 0
-  m_Name: Fondo falso
+  m_Name: Backgraund false
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
