@@ -6,7 +6,6 @@ public class HeroMove : MonoBehaviour
 {
     float horizontalMove = 0;
     public float runSpeedHorizontal = 3;
-    public float runSpeedVertical = 3;
     public float runSpeed = 0;
     public float jumpForce = 2;
     public Joystick joystick;
