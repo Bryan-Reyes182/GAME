@@ -14009,7 +14009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5022181861120824920, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: jumpForce
-      value: 2
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5022181861120824920, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: rigidbody2D
@@ -14081,7 +14081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8942925490989933264, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: m_GravityScale
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2314609109263291555, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
