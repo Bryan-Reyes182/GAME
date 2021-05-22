@@ -45,12 +45,12 @@ public class HeroMove : MonoBehaviour
                    spriteRenderer.flipX = false;
                    animator.SetBool("Run", true);
                }
-               else if (joystick.Horizontal <= -0.1 && IsGrounded.isGrounded == true)
+              else if (joystick.Horizontal <= -0.1 && IsGrounded.isGrounded == true)
                {
                    spriteRenderer.flipX = true;
                    animator.SetBool("Run", true);
                }
-               else
+              else
                {
                    animator.SetBool("Run", false);
                }
