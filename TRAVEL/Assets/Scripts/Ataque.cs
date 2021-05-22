@@ -10,23 +10,23 @@ public class Ataque : MonoBehaviour
     public LayerMask enemyLayers;
     public float attackRange = 0.5f;
     public int attackDamage = 40;
+    
 
     public float attackRotate = 2f;
     float nextAtackTime = 0f;
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Time.time >= nextAtackTime)
+      public void ATQ()
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Time.time >= nextAtackTime)
             {
-                Attack();
-                nextAtackTime = Time.time + 1f / attackRotate;
+                
+                    Attack();
+                    nextAtackTime = Time.time + 1f / attackRotate;
+                
             }
         }
-
-    }
+    
     void Attack()
     {
         // Llama a la animacion de atacke
@@ -64,5 +64,5 @@ public class Ataque : MonoBehaviour
         }
         Gizmos.DrawWireSphere(AttackPointB.position, attackRange);
     }
-
+    
 }
