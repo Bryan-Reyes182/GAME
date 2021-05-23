@@ -1837,4 +1837,7 @@ Received Import Request.
 Start importing Assets/Animaciones/AnimacionesHero using Guid(b428bf1240aa9fd408149d193e395e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b591b46e57f7befe5b47307b1eeafbed') in 0.034186 seconds
   Import took 0.066753 seconds .
 
+<<<<<<< Updated upstream
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+>>>>>>> Stashed changes
