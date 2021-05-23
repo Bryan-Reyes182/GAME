@@ -23,7 +23,7 @@ public class IAEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //StartCoroutine(CheckEnemyMovin());
+        StartCoroutine(CheckEnemyMovin());
 
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[d].transform.position, speed * Time.deltaTime);
         if (Vector2.Distance(transform.position, moveSpots[d].transform.position) < 0.1f)
@@ -48,7 +48,7 @@ public class IAEnemy : MonoBehaviour
 
     }
 
-    /*IEnumerator CheckEnemyMovin()
+    IEnumerator CheckEnemyMovin()
     {
         actualPos = transform.position;
         yield return new WaitForSeconds(0.5f);
@@ -68,5 +68,5 @@ public class IAEnemy : MonoBehaviour
         }
 
 
-    }*/
+    }
 }
