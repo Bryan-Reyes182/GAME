@@ -9,10 +9,12 @@ public class Enemy : MonoBehaviour
     int currentHealth;
     public Transform player;
     public bool isFlipped = false;
+    public Health healthBar;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
 
     }
     public void TakeDamage(int damage)
