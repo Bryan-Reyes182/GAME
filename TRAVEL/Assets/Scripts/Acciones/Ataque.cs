@@ -29,6 +29,7 @@ public class Ataque : MonoBehaviour
     
     void Attack()
     {
+        
         // Llama a la animacion de atacke
         animator.SetTrigger("Attak");
 
@@ -48,6 +49,7 @@ public class Ataque : MonoBehaviour
 
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
+        
     }
     private void OnDrawGizmosSelected()
     {
@@ -64,5 +66,5 @@ public class Ataque : MonoBehaviour
         }
         Gizmos.DrawWireSphere(AttackPointB.position, attackRange);
     }
-    
+
 }

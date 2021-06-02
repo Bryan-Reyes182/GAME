@@ -21,19 +21,20 @@ public class Respawn : MonoBehaviour
      if(life < 1)
         {
             Destroy(hearts[0].gameObject);
-            animator.Play("Hit");
+            animator.Play("Death");
             StartCoroutine("Esperar");
+ 
         }
         else if (life < 2)
         {
             Destroy(hearts[1].gameObject);
-            animator.Play("Daño");
+            animator.Play("Hit");
         }
     
      else if(life < 3)
         {
             Destroy(hearts[2].gameObject);
-            animator.Play("Daño");
+            animator.Play("Hit");
         }
     }
 
@@ -44,7 +45,7 @@ public class Respawn : MonoBehaviour
     }
     IEnumerator Esperar()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds((float)2);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }

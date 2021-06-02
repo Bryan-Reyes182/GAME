@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 941039286464184326, guid: dadaa208f3648544ea3600a3b62a72b6, type: 3}
         m_TargetAssemblyTypeName: Ataque, Assembly-CSharp
         m_MethodName: ATQ
         m_Mode: 1

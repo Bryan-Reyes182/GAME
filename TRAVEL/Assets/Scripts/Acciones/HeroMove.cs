@@ -23,36 +23,47 @@ public class HeroMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (joystick.Vertical >= 0.5f && IsGrounded.isGrounded)
+        
+       
+    
+
+
+
+
+
+
+        if (joystick.Vertical >= 0.5f && IsGrounded.isGrounded || Input.GetKeyDown("w") && IsGrounded.isGrounded)
         {
             Jump();
         }
 
-               if (IsGrounded.isGrounded == false)
-                {
-                    animator.SetBool("Jump", true);
-                    animator.SetBool("Run", false);
 
-                }
-                if (IsGrounded.isGrounded == true)
-                {
-                    animator.SetBool("Jump", false);
-                }
+        if (IsGrounded.isGrounded == false)
+        {
+            animator.SetBool("Jump", true);
+            animator.SetBool("Run", false);
+
+        }
+        if (IsGrounded.isGrounded == true)
+        {
+            animator.SetBool("Jump", false);
+        }
         horizontalMove = joystick.Horizontal * runSpeedHorizontal;
-             if (joystick.Horizontal >= 0.1 && IsGrounded.isGrounded == true)
-               {
-                   spriteRenderer.flipX = false;
-                   animator.SetBool("Run", true);
-               }
-              else if (joystick.Horizontal <= -0.1 && IsGrounded.isGrounded == true)
-               {
-                   spriteRenderer.flipX = true;
-                   animator.SetBool("Run", true);
-               }
-              else
-               {
-                   animator.SetBool("Run", false);
-               }
+         if (joystick.Horizontal >= 0.1 && IsGrounded.isGrounded == true || Input.GetKey("d") && IsGrounded.isGrounded == true)
+        {
+            spriteRenderer.flipX = false;
+            animator.SetBool("Run", true);
+        }
+        else if (joystick.Horizontal <= -0.1 && IsGrounded.isGrounded == true || Input.GetKey("a") && IsGrounded.isGrounded == true) 
+        { 
+            spriteRenderer.flipX = true;
+            animator.SetBool("Run", true);
+            
+        }
+        else
+        {
+            animator.SetBool("Run", false);
+        }
         transform.position += new Vector3(horizontalMove, 0, 0) * Time.deltaTime * runSpeed;
     }
     public void Jump()

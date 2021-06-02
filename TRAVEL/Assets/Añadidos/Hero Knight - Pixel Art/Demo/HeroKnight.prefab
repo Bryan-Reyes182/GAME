@@ -87,6 +87,8 @@ GameObject:
   - component: {fileID: 8942925490989933264}
   - component: {fileID: 9117128348835321587}
   - component: {fileID: 5022181861120824920}
+  - component: {fileID: 8125229905071019116}
+  - component: {fileID: 1417519027121684647}
   m_Layer: 0
   m_Name: HeroKnight
   m_TagString: Player
@@ -242,10 +244,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49feb3307dcf4144ea26a2934d13f679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeedHorizontal: 3
   runSpeed: 2
-  jumpSpeed: 3
+  jumpForce: 2
+  joystick: {fileID: 0}
+  rigidbody2D: {fileID: 0}
   spriteRenderer: {fileID: 2954181336601895002}
   animator: {fileID: 2655505060201611074}
+--- !u!114 &8125229905071019116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a55488bc1c3b347a5b363b05482577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2655505060201611074}
+  AttackPoint: {fileID: 4393510860592810054}
+  AttackPointB: {fileID: 351674194244795142}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  attackRange: 0.2
+  attackDamage: 40
+  attackRotate: 2
+--- !u!114 &1417519027121684647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79227a8027cf8341aa7524b0be050d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RunSpeed: 2
+  jumpSpeed: 3
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!1 &7087049454815086010
 GameObject:
   m_ObjectHideFlags: 0
