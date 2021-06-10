@@ -224,8 +224,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RunSpeed: 2
   jumpSpeed: 3
-  animator: {fileID: 0}
-  spriteRenderer: {fileID: 0}
+  animator: {fileID: 253879847}
+  spriteRenderer: {fileID: 253879853}
+--- !u!95 &253879847 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2349604631022023934, guid: dadaa208f3648544ea3600a3b62a72b6, type: 3}
+  m_PrefabInstance: {fileID: 783318104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &253879848 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8395794589798899664, guid: dadaa208f3648544ea3600a3b62a72b6, type: 3}
@@ -237,6 +242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a55488bc1c3b347a5b363b05482577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &253879853 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3224044589279161318, guid: dadaa208f3648544ea3600a3b62a72b6, type: 3}
+  m_PrefabInstance: {fileID: 783318104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &267316534
 GameObject:
   m_ObjectHideFlags: 0
